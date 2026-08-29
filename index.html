@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Koenigsegg — ingeniería sin concesiones desde Ängelholm, Suecia." />
+    <meta name="theme-color" content="#080909" />
+    <title>Koenigsegg | Sin concesiones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="stiles.css" />
+    <link rel="stylesheet" href="Script.js">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="page-noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Koenigsegg, inicio">
+        <img class="official-logo" src="koenigsegg-logo.png" alt="Koenigsegg" /><span class="brand-name">KOENIGSEGG</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#modelos">Modelos</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#legado">Legado</a>
+        <a href="#experiencia">Experiencia</a>
+      </nav>
+      <a class="nav-cta" href="#contacto">Solicitar una consulta <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span class="sr-only">Abrir menú</span>
+        <span></span><span></span>
+      </button>
+      <div class="mobile-menu" id="mobile-menu" data-mobile-menu>
+        <a href="#modelos">Modelos</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#legado">Legado</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#contacto">Solicitar una consulta ↗</a>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="Koenigsegg Jesko Absolut sobre asfalto oscuro"></div>
+        <div class="hero-vignette"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-topline wrapper">
+          <p>Ängelholm, Suecia</p>
+          <p class="hero-date">Est. 1994 <span></span> 56°18' N</p>
+        </div>
+        <div class="hero-content wrapper">
+          <p class="eyebrow light reveal">La nueva definición de megacar</p>
+          <h1 id="hero-title" class="reveal">Sin<br /><em>concesiones.</em></h1>
+          <div class="hero-bottom reveal">
+            <p>Cuando la ingeniería no acepta límites, cada detalle tiene un propósito. Bienvenido a Koenigsegg.</p>
+            <a class="round-link" href="#modelos" aria-label="Descubrir nuestros modelos"><span>DESCUBRIR<br />MODELOS</span><b aria-hidden="true">↓</b></a>
+          </div>
+        </div>
+        <div class="hero-caption" aria-hidden="true"><span>JESKO ABSOLUT</span><span>01 / 04</span></div>
+      </section>
+
+      <section class="statement section-padding" aria-labelledby="statement-title">
+        <div class="wrapper statement-grid">
+          <div class="section-tag reveal"><span>01</span><p>La filosofía</p></div>
+          <div>
+            <p class="kicker reveal">Nacidos para cambiar las reglas</p>
+            <h2 id="statement-title" class="display-text reveal">No perseguimos<br />récords. <em>Los reescribimos.</em></h2>
+            <div class="statement-copy reveal">
+              <p>En Koenigsegg, el rendimiento no se toma prestado. Se imagina, se diseña y se construye internamente para entregar una experiencia que no existe en ningún otro lugar.</p>
+              <a class="text-link" href="#tecnologia">Conoce nuestra ingeniería <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="stat-strip wrapper reveal" aria-label="Cifras de Koenigsegg">
+          <div><strong>2.300</strong><span>CV combinados<br />Gemera HV8</span></div>
+          <div><strong>0,278</strong><span>Coeficiente de<br />arrastre, Jesko Absolut</span></div>
+          <div><strong>1:1</strong><span>Relación potencia-peso<br />CC850</span></div>
+          <div><strong>1994</strong><span>El año en que<br />todo comenzó</span></div>
+        </div>
+      </section>
+
+      <section class="models-section" id="modelos" aria-labelledby="models-title">
+        <div class="wrapper section-heading">
+          <div class="section-tag reveal"><span>02</span><p>La colección</p></div>
+          <div class="heading-row reveal">
+            <div><p class="kicker">Megacars</p><h2 id="models-title">Diseñados<br /><em>sin precedentes.</em></h2></div>
+            <p class="heading-note">Cada Koenigsegg nace de una pregunta simple: ¿qué ocurriría si aceptáramos solo lo extraordinario?</p>
+          </div>
+        </div>
+        <div class="model-rail wrapper" data-model-rail>
+          <article class="model-card card-jesko is-active reveal" data-model="jesko" tabindex="0" role="button" aria-label="Ver detalles del Jesko Absolut">
+            <div class="model-card-image"></div>
+            <div class="model-card-shade"></div>
+            <div class="card-index">01</div>
+            <div class="model-card-content"><p>La máquina de velocidad máxima</p><h3>Jesko<br />Absolut</h3><span class="card-open">Explorar <b>↗</b></span></div>
+          </article>
+          <article class="model-card card-gemera reveal" data-model="gemera" tabindex="0" role="button" aria-label="Ver detalles del Gemera">
+            <div class="model-card-image"></div>
+            <div class="model-card-shade"></div>
+            <div class="card-index">02</div>
+            <div class="model-card-content"><p>El megacar para cuatro</p><h3>Gemera</h3><span class="card-open">Explorar <b>↗</b></span></div>
+          </article>
+          <article class="model-card card-cc850 reveal" data-model="cc850" tabindex="0" role="button" aria-label="Ver detalles del CC850">
+            <div class="model-card-image"></div>
+            <div class="model-card-shade"></div>
+            <div class="card-index">03</div>
+            <div class="model-card-content"><p>El clásico contemporáneo</p><h3>CC850</h3><span class="card-open">Explorar <b>↗</b></span></div>
+          </article>
+        </div>
+        <div class="wrapper model-detail reveal" data-model-detail aria-live="polite">
+          <div class="model-detail-title"><span data-detail-index>01</span><h3 data-detail-name>Jesko Absolut</h3></div>
+          <p data-detail-description>Diseñado para una sola misión: alcanzar velocidades extraordinarias con una silueta esculpida por el aire.</p>
+          <dl><div><dt data-detail-stat-one>1.600</dt><dd data-detail-label-one>CV con E85</dd></div><div><dt data-detail-stat-two>0,278</dt><dd data-detail-label-two>Coeficiente Cd</dd></div><div><dt data-detail-stat-three>9</dt><dd data-detail-label-three>Velocidades LST</dd></div></dl>
+          <a class="text-link" data-detail-url href="https://www.koenigsegg.com/model/jesko-absolut" target="_blank" rel="noreferrer">Ficha técnica <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="technology section-padding" id="tecnologia" aria-labelledby="tech-title">
+        <div class="tech-visual" aria-hidden="true"><div class="tech-circle circle-one"></div><div class="tech-circle circle-two"></div><div class="tech-arc"></div></div>
+        <div class="wrapper technology-grid">
+          <div class="tech-intro">
+            <div class="section-tag light reveal"><span>03</span><p>Innovación interna</p></div>
+            <p class="kicker light reveal">El detalle es el destino</p>
+            <h2 id="tech-title" class="light reveal">Tecnología que<br /><em>no existía.</em></h2>
+          </div>
+          <div class="tech-list">
+            <article class="tech-item reveal">
+              <span>01</span><div><h3>Light Speed Transmission</h3><p>Nueve velocidades y múltiples embragues húmedos para saltar directamente a la marcha que necesitas, casi a la velocidad de la luz.</p></div><button type="button" data-tech="lst" aria-label="Ver detalle de Light Speed Transmission">+</button>
+            </article>
+            <article class="tech-item reveal">
+              <span>02</span><div><h3>Dark Matter e-motor</h3><p>Un motor Raxial Flux de 800 CV, 39 kg y seis fases. Compacto en forma, inmenso en impacto.</p></div><button type="button" data-tech="dark" aria-label="Ver detalle de Dark Matter e-motor">+</button>
+            </article>
+            <article class="tech-item reveal">
+              <span>03</span><div><h3>Autoskin</h3><p>Aperturas electrohidráulicas que coreografían puertas y paneles con precisión, seguridad y una presencia inconfundible.</p></div><button type="button" data-tech="autoskin" aria-label="Ver detalle de Autoskin">+</button>
+            </article>
+          </div>
+        </div>
+        <div class="tech-popover" data-tech-popover aria-hidden="true">
+          <button type="button" data-popover-close aria-label="Cerrar detalle">×</button><span data-popover-num>01</span><h3 data-popover-title>Light Speed Transmission</h3><p data-popover-copy>El selector no conoce pasos intermedios: encuentra la relación óptima y conecta la potencia sin la pausa de una transmisión convencional.</p>
+        </div>
+      </section>
+
+      <section class="craft section-padding" aria-labelledby="craft-title">
+        <div class="wrapper craft-layout">
+          <div class="craft-photo reveal"><div class="photo-label">MANO. MENTE. MATERIAL.</div></div>
+          <div class="craft-content">
+            <div class="section-tag reveal"><span>04</span><p>Artesanía radical</p></div>
+            <p class="kicker reveal">Construidos en Ängelholm</p>
+            <h2 id="craft-title" class="reveal">La obsesión<br />es <em>personal.</em></h2>
+            <p class="craft-lead reveal">Un Koenigsegg no se ensambla en cadena. Se construye con atención absoluta, por un equipo que conoce cada fibra, cada tornillo y cada curva.</p>
+            <div class="craft-points reveal">
+              <div><span>01</span><p><b>Fibra de carbono</b> creada, tejida y acabada para convertir ligereza en resistencia.</p></div>
+              <div><span>02</span><p><b>Personalización sin límites</b> para que cada automóvil sea inequívocamente suyo.</p></div>
+              <div><span>03</span><p><b>Ingeniería interna</b> que mantiene cada decisión en manos de quienes la imaginan.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="legacy" id="legado" aria-labelledby="legacy-title">
+        <div class="legacy-image" role="img" aria-label="Koenigsegg CC850 visto desde el frente"></div>
+        <div class="legacy-overlay"></div>
+        <div class="wrapper legacy-content">
+          <div class="section-tag light reveal"><span>05</span><p>Treinta años de imposibles</p></div>
+          <h2 id="legacy-title" class="light reveal">El futuro tiene<br /><em>historia.</em></h2>
+          <div class="timeline reveal" aria-label="Momentos clave de Koenigsegg">
+            <button class="timeline-item is-current" data-year="1994" data-timeline="Fundación de Koenigsegg Automotive AB, en Suecia."><b>1994</b><span>La idea</span></button>
+            <button class="timeline-item" data-year="2002" data-timeline="El CC8S establece el estándar de potencia en producción."><b>2002</b><span>CC8S</span></button>
+            <button class="timeline-item" data-year="2014" data-timeline="ONE:1 inaugura la era del megacar con una relación potencia-peso de 1:1."><b>2014</b><span>ONE:1</span></button>
+            <button class="timeline-item" data-year="2020" data-timeline="Gemera presenta una nueva categoría: el Mega GT de cuatro plazas."><b>2020</b><span>Gemera</span></button>
+            <button class="timeline-item" data-year="2024" data-timeline="Una nueva generación de ingeniería híbrida, potencia y espacio sin compromisos."><b>2024</b><span>El siguiente paso</span></button>
+          </div>
+          <p class="timeline-copy" data-timeline-copy>Fundación de Koenigsegg Automotive AB, en Suecia.</p>
+        </div>
+      </section>
+
+      <section class="experience section-padding" id="experiencia" aria-labelledby="experience-title">
+        <div class="wrapper experience-grid">
+          <div>
+            <div class="section-tag reveal"><span>06</span><p>Propiedad Koenigsegg</p></div>
+            <p class="kicker reveal">Una relación que empieza aquí</p>
+            <h2 id="experience-title" class="reveal">Más allá de<br /><em>conducir.</em></h2>
+          </div>
+          <div class="experience-copy reveal"><p>La experiencia Koenigsegg está pensada con la misma precisión que nuestros automóviles. Desde la configuración hasta la entrega y cada viaje posterior, su relación con la marca es siempre personal.</p><a class="text-link" href="#contacto">Conocer la experiencia <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="wrapper experience-cards">
+          <article class="experience-card reveal"><span>01</span><h3>Configuración<br />privada</h3><p>Materiales, acabados y posibilidades guiadas por nuestros especialistas.</p><span class="arrow">↗</span></article>
+          <article class="experience-card reveal"><span>02</span><h3>Factory<br />tours</h3><p>Entre en el lugar donde el pensamiento imposible toma forma.</p><span class="arrow">↗</span></article>
+          <article class="experience-card reveal"><span>03</span><h3>Owner<br />events</h3><p>Momentos extraordinarios junto a una comunidad singular.</p><span class="arrow">↗</span></article>
+        </div>
+      </section>
+
+      <section class="contact" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="wrapper contact-grid">
+          <div class="contact-title-block reveal"><p class="kicker light">El próximo capítulo</p><h2 id="contact-title" class="light">Hablemos de<br /><em>lo posible.</em></h2><p>Solicite una consulta privada y un especialista Koenigsegg se pondrá en contacto con usted.</p></div>
+          <form class="contact-form reveal" data-contact-form>
+            <label>Nombre completo<input required name="name" type="text" autocomplete="name" placeholder="Su nombre" /></label>
+            <label>Correo electrónico<input required name="email" type="email" autocomplete="email" placeholder="nombre@empresa.com" /></label>
+            <label>Interés<select name="interest"><option>Información de modelos</option><option>Configuración privada</option><option>Factory tour</option><option>Prensa y alianzas</option></select></label>
+            <button class="form-submit" type="submit">Enviar solicitud <span>↗</span></button>
+            <p class="form-note">Este prototipo no envía ni almacena datos. Conéctelo al CRM y a la política de privacidad de la empresa antes de publicarlo.</p>
+            <p class="form-status" data-form-status role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper footer-top">
+        <a class="brand footer-brand" href="#inicio" aria-label="Volver al inicio"><img class="official-logo" src="koenigsegg-logo.png" alt="Koenigsegg" /><span class="brand-name">KOENIGSEGG</span></a>
+        <p>Ingeniería sueca,<br />sin concesiones desde 1994.</p>
+      </div>
+      <div class="wrapper footer-links">
+        <div><span>Explorar</span><a href="#modelos">Megacars</a><a href="#tecnologia">Tecnología</a><a href="#legado">Historia</a></div>
+        <div><span>Conectar</span><a href="#experiencia">Propiedad</a><a href="#contacto">Contacto</a><a href="https://www.koenigsegg.com/locator" target="_blank" rel="noreferrer">Distribuidores ↗</a></div>
+        <div><span>Canales</span><a href="https://www.instagram.com/koenigsegg/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.youtube.com/@koenigsegg" target="_blank" rel="noreferrer">YouTube ↗</a><a href="https://www.linkedin.com/company/koenigsegg-automotive-ab/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+      <div class="wrapper footer-bottom"><span>© 2026 Koenigsegg Automotive AB</span><span>Concepto digital — requiere validación de marca y contenido antes de publicación.</span><a href="#inicio">Volver arriba ↑</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
